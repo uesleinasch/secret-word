@@ -14,10 +14,8 @@ function App() {
   return (
     <>
       {gaeStage === 1 && <HomeGame setGaeStage={setGaeStage} />}
-      {gaeStage === 2 && <Game />}
-      {gaeStage === 3 && <EndGame />}
-   
-      
+      {gaeStage === 2 && <Game   setGaeStage={setGaeStage}/>}
+      {gaeStage === 3 && <EndGame setGaeStage={setGaeStage} />}     
     </>
   )
 }
