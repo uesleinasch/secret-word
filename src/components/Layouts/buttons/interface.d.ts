@@ -1,7 +1,7 @@
 export interface ButtonType {
     type: 'primary' | 'secondary',
     text: string,
-    action: () => void,
+    action: () => void ,
     style?: CSSProperties,
     customClass?: string
 }
