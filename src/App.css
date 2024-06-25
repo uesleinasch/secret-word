@@ -1,0 +1,13 @@
+:root{
+    --background-color: #cbf3f0;
+    --primary-color: #f72585;
+    --secondary-color: #2ec4b6;
+    --ascent-color: #dc2f02;
+    --border-color: #e9ecef;
+    --text-color: #212529;
+    --text-color-secondary: #eaf5ff;
+}
+
+body{
+    background-color: var( --background-color);
+}

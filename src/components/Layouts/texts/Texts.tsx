@@ -1,13 +1,13 @@
-import { CSSProperties } from "react"
-import { TextType } from "./interfaces"
 
-const Texts = ({type, text, style}: {type: TextType, text: string, style?: CSSProperties}) => {
+import { TextInterface } from "./interfaces"
+
+const Texts = ({type, text, style, customClass}: TextInterface) => {
 
     return (
         <>
-            {type.type === 'h1' && <h1 style={style}>{text}</h1>}
-            {type.type === 'h2' && <h2 style={style}>{text}</h2>}
-            {type.type === 'p' && <p style={style}>{text}</p>}
+            {type.type === 'h1' && <h1 className={customClass} style={style}>{text}</h1>}
+            {type.type === 'h2' && <h2 className={customClass} style={style}>{text}</h2>}
+            {type.type === 'p' && <p className={customClass} style={style}>{text}</p>}
         </>
     )
 }

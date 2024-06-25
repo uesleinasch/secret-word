@@ -1,0 +1,13 @@
+.primaryBtn {
+    background-color: #4cc9f0;
+    color: var(--text-color);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+    width: auto;
+    font-weight: 700;
+    text-transform: uppercase;
+}
